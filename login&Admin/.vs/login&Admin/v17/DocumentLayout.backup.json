@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\System\\login\u0026Admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|d:\\system\\login\u0026admin\\login\u0026admin\\model\\studentcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|solutionrelative:login\u0026admin\\model\\studentcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|d:\\system\\login\u0026admin\\login\u0026admin\\model\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|solutionrelative:login\u0026admin\\model\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|d:\\system\\login\u0026admin\\login\u0026admin\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|solutionrelative:login\u0026admin\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|d:\\system\\login\u0026admin\\login\u0026admin\\data\\contextdegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|solutionrelative:login\u0026admin\\data\\contextdegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|d:\\system\\login\u0026admin\\login\u0026admin\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06320F1-1BAF-46D1-8518-2663E6410C6B}|login\u0026Admin\\loginAdmin.csproj|solutionrelative:login\u0026admin\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentCourses.cs",
+              "DocumentMoniker": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\StudentCourses.cs",
+              "RelativeDocumentMoniker": "login\u0026Admin\\Model\\StudentCourses.cs",
+              "ToolTip": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\StudentCourses.cs",
+              "RelativeToolTip": "login\u0026Admin\\Model\\StudentCourses.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:43:38.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "login\u0026Admin\\Model\\Student.cs",
+              "ToolTip": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\Student.cs",
+              "RelativeToolTip": "login\u0026Admin\\Model\\Student.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:42:50.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContextDegree.cs",
+              "DocumentMoniker": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Data\\ContextDegree.cs",
+              "RelativeDocumentMoniker": "login\u0026Admin\\Data\\ContextDegree.cs",
+              "ToolTip": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Data\\ContextDegree.cs",
+              "RelativeToolTip": "login\u0026Admin\\Data\\ContextDegree.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:42:26.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\Admin.cs",
+              "RelativeDocumentMoniker": "login\u0026Admin\\Model\\Admin.cs",
+              "ToolTip": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\Admin.cs",
+              "RelativeToolTip": "login\u0026Admin\\Model\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:43:20.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\Courses.cs",
+              "RelativeDocumentMoniker": "login\u0026Admin\\Model\\Courses.cs",
+              "ToolTip": "D:\\System\\login\u0026Admin\\login\u0026Admin\\Model\\Courses.cs",
+              "RelativeToolTip": "login\u0026Admin\\Model\\Courses.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:43:02.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

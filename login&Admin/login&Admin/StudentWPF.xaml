@@ -1,0 +1,60 @@
+﻿<Window x:Class="loginAdmin.StudentWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:loginAdmin"
+        mc:Ignorable="d"
+        Title="AdminWPF" Height="450" Width="800">
+
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Students" FontFamily="Comic Sans MS" Background="#FF007191" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>
+            <Button Width="120" Height="30" Background="Red" Foreground="White" Content="Logout" BorderBrush="White" BorderThickness="4" Margin="1,-70,-620,1" Click="Button_Click"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                <TextBlock Text="Select Student:" FontFamily="Comic Sans MS"
+                           FontWeight="Bold" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,10,0"/>
+                <ComboBox x:Name="studentsComboBox" Foreground="#FF007191" FontFamily="Comic Sans MS"   Width="200"  Height="30" DisplayMemberPath="STName" SelectionChanged="StudentsComboBox_SelectionChanged"/>
+            </StackPanel>
+
+            <GroupBox Header="Information" FontSize="13" FontFamily="Comic Sans MS" FontStyle="Italic" Margin="0,0,0,15">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                       <ColumnDefinition Width="Auto"/>
+                       <ColumnDefinition Width="*"/>
+                       <ColumnDefinition Width="Auto"/>
+                       <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="ID:" FontWeight="Bold" Margin="5"/>
+                    <TextBlock x:Name="txtStudentId" Grid.Column="1" Margin="5"/>
+
+                    <TextBlock Grid.Column="2" Text="Username:" FontWeight="Bold" Margin="5"/>
+                    <TextBlock x:Name="txtUsername" Grid.Column="3" Margin="5"/>
+                </Grid>
+            </GroupBox>
+
+            <GroupBox Header="Courses and Grades">
+                <DataGrid x:Name="coursesDataGrid" BorderBrush="#FF007191" BorderThickness="3"
+                          Height="250" 
+                          AutoGenerateColumns="False"
+                          IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Course ID" Binding="{Binding courses.COID}" Width="80"/>
+                        <DataGridTextColumn Header="Course Name" Binding="{Binding courses.COName}" Width="*"/>
+                        <DataGridTextColumn Header="Grade" Binding="{Binding grade}" Width="100"/>
+                      </DataGrid.Columns>
+                     </DataGrid>
+                     </GroupBox>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="Total Courses:" FontWeight="Bold" Margin="0,0,10,0"/>
+                <TextBlock x:Name="txtTotalCourses" Text="0" Margin="0,0,20,0"/>
+
+                <TextBlock Text="Average Grade:" FontWeight="Bold" Margin="0,0,10,0"/>
+                <TextBlock x:Name="txtAverageGrade" Text="0.0" Margin="0,0,20,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
